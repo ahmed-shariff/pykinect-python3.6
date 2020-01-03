@@ -18,7 +18,7 @@ import os
 import _thread
 
 # basic initialization, Python specific infrastructure
-_nuidll_path = os.path.join(os.environ['WINDIR'], 'System32', 'Kinect10.dll')
+_nuidll_path = os.path.join(os.environ['WINDIR'], 'System32', 'Kinect20.dll')
 _NUIDLL = ctypes.WinDLL(_nuidll_path)
 
 class KinectError(WindowsError):
